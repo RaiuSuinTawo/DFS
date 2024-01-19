@@ -1,0 +1,35 @@
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 9, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=None, train_por=0.5)
+==========Performance==========
+best PA is 0.658, 
+best mpa is 0.627, 
+and best miou is 0.546.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 18, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=None, train_por=0.5)
+==========Performance==========
+best PA is 0.695, 
+best mpa is 0.668, 
+and best miou is 0.579.
+
+
+
+==========================
+以下做了layer之间残差连接的改动
+==========================
+
+
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[3, 4, 6, 3], loss_type='cross_entropy', lr=1e-05, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=None, train_por=0.5)
+==========Performance==========
+best PA is 0.659, 
+best mpa is 0.643, 
+and best miou is 0.550.
+

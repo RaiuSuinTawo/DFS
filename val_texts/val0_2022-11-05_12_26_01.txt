@@ -1,0 +1,36 @@
+==========Model==========
+mynet_swin 减少中间层数 [ACCEPTED!]
+==========Settings==========
+Namespace(additional='减少中间层数', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.707, 
+best mpa is 0.675, 
+and best miou is 0.607.
+
+==========Model==========
+mynet_swin 增大drop
+==========Settings==========
+Namespace(additional='增大drop', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.2, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.684, 
+best mpa is 0.664, 
+and best miou is 0.567.
+
+==========Model==========
+mynet_swin 减小head
+==========Settings==========
+Namespace(additional='减小head', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=16, heads=2, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.700, 
+best mpa is 0.637, 
+and best miou is 0.573.
+
+==========Model==========
+mynet_swin recurrence-4
+==========Settings==========
+Namespace(additional='recurrence-4', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=4, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.691, 
+best mpa is 0.619, 
+and best miou is 0.552.
+

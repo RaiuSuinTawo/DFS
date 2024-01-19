@@ -1,0 +1,9 @@
+==========Model==========
+mynet_swin
+==========Settings==========
+Namespace(batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 18, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.714, 
+best mpa is 0.648, 
+and best miou is 0.582.
+

@@ -1,0 +1,36 @@
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=0, train_por=0.5)
+==========Performance==========
+best PA is 0.666, 
+best mpa is 0.619, 
+and best miou is 0.525.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=1, train_por=0.5)
+==========Performance==========
+best PA is 0.664, 
+best mpa is 0.646, 
+and best miou is 0.534.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=2, train_por=0.5)
+==========Performance==========
+best PA is 0.659, 
+best mpa is 0.628, 
+and best miou is 0.526.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=3, train_por=0.5)
+==========Performance==========
+best PA is 0.667, 
+best mpa is 0.625, 
+and best miou is 0.521.
+

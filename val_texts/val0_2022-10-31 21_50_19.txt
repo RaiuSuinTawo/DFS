@@ -1,0 +1,45 @@
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=15, train_por=0.5)
+==========Performance==========
+best PA is 0.643, 
+best mpa is 0.644, 
+and best miou is 0.545.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=26, train_por=0.5)
+==========Performance==========
+best PA is 0.641, 
+best mpa is 0.626, 
+and best miou is 0.519.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=29, train_por=0.5)
+==========Performance==========
+best PA is 0.685, 
+best mpa is 0.646, 
+and best miou is 0.538.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=101, train_por=0.5)
+==========Performance==========
+best PA is 0.679, 
+best mpa is 0.624, 
+and best miou is 0.544.
+
+==========Model==========
+mynet
+==========Settings==========
+Namespace(batch_size=8, crop_size=512, data='both', data_dir='../../geo_seg', device=None, emb_dim=48, epoch=200, fine_grained='coarse', gen_dataset='no', inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=0.0001, model='mynet', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', seed=50, train_por=0.5)
+==========Performance==========
+best PA is 0.690, 
+best mpa is 0.635, 
+and best miou is 0.521.
+

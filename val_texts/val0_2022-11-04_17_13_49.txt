@@ -1,0 +1,18 @@
+==========Model==========
+mynet_swin 不用recurrence
+==========Settings==========
+Namespace(additional='不用recurrence', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 18, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=1, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.697, 
+best mpa is 0.659, 
+and best miou is 0.580.
+
+==========Model==========
+mynet_swin 增多recurrence
+==========Settings==========
+Namespace(additional='增多recurrence', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 18, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=3, seed=None, train_por=0.5, window_size=8)
+==========Performance==========
+best PA is 0.667, 
+best mpa is 0.627, 
+and best miou is 0.565.
+
