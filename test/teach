@@ -1,0 +1,123 @@
+
+Tree* Find(Tree* root, Elem k)
+{
+    if (!root) return None;
+    if (root->value == k) return root;
+    else if (root->left == k) return root->left;
+
+    else if (root->value < k) return Find(root->right, k);
+    else return Find(root->right, k);
+}
+
+Tree* Build(Elem* A, int n)
+{
+    Tree* root = None;
+    for (int i = 0; i < n; ++i)
+    {
+        Tree* r = root;
+        if (!r) 
+        {
+            root = Tree* malloc(sizeof(Tree));
+            root->value = A[i];
+        }
+        else
+        {
+            while (1)
+            {
+                if (r->value==A[i]) break;
+                if (r->value<A[i])
+                {
+                    if (r->right) r = r->right;
+                    else 
+                    {
+                        r->right = (Tree*) malloc(sizeof(Tree));
+                        r->right->value = A[i];
+                        break;
+                    }
+                }
+                else
+                {
+                    if (r->left) r = r->left;
+                    else 
+                    {
+                        r->left = (Tree*) malloc(sizeof(Tree));
+                        r->left->value = A[i];
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    return root;
+}
+
+Tree* FindP(Tree* r, Tree* t)
+{
+    if (r == t) return r;
+    while (1)
+    {
+        if (r->left == t || r->right == t) return r;
+        if (r->value < t->value)
+        {
+            if (r->right) r = r->right;
+            else return None;
+        }
+        else
+        {
+            if (r->left) r = r->left;
+            else return None;
+        }
+    }
+}
+
+bool delete(Tree* root, int k)
+{
+    Tree* t = Find(root, k);
+    if (!t) return false;
+    Tree* p = FindP(root, t);
+    if (!t->left && !t->right)
+    {
+        if (t==root) {
+            free(root);
+            continue;
+        }
+        if (p->left == t) p->left = None;
+        else p->right = None;
+        free(t);
+    }
+    else if (!t->left)
+    {
+        if (t==root)
+        {
+            Tree* temp = root->right;
+            root->right = root->right->right;
+            free(temp);
+        }
+        else
+        {
+            p->right = p->right->right;
+            free(t);
+        }
+    }
+    else if (!t->right)
+    {
+        if (t==root)
+        {
+            Tree* temp = root->left;
+            root->left = root->left->left;
+            free(temp);
+        }
+        else
+        {
+            p->left = p->left->left;
+            free(t);
+        }
+    }
+    else
+    {
+        Tree* temp = t->left;
+        while(temp->right) temp = temp->right;
+        swap(t->value, temp->value);
+        return delete(root, t->value);
+    }
+}

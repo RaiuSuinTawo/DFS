@@ -1,0 +1,144 @@
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.722, 
+best mpa is 0.701, 
+and best miou is 0.607.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.665, 
+best mpa is 0.639, 
+and best miou is 0.557.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.688, 
+best mpa is 0.662, 
+and best miou is 0.581.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2_c3
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2_c3', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.689, 
+best mpa is 0.649, 
+and best miou is 0.587.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.679, 
+best mpa is 0.654, 
+and best miou is 0.566.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.667, 
+best mpa is 0.663, 
+and best miou is 0.584.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2_c3
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2_c3', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.694, 
+best mpa is 0.632, 
+and best miou is 0.587.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.675, 
+best mpa is 0.640, 
+and best miou is 0.582.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.679, 
+best mpa is 0.633, 
+and best miou is 0.551.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2_c3
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2_c3', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.681, 
+best mpa is 0.644, 
+and best miou is 0.582.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.677, 
+best mpa is 0.639, 
+and best miou is 0.574.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.713, 
+best mpa is 0.673, 
+and best miou is 0.583.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2_c3
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2_c3', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.677, 
+best mpa is 0.671, 
+and best miou is 0.591.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.670, 
+best mpa is 0.621, 
+and best miou is 0.566.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.675, 
+best mpa is 0.629, 
+and best miou is 0.579.
+
+==========Model==========
+mynet_swin ablation_Compensate_CrossSwin_c1_c2_c3
+==========Settings==========
+Namespace(additional='ablation_Compensate_CrossSwin_c1_c2_c3', batch_size=8, crop_size=256, data='both', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=500, fine_grained='coarse', gen_dataset='no', head_dim=8, heads=4, inchans=[3, 3], layers=[2, 2, 12, 2], loss_type='cross_entropy', lr=1e-05, model='mynet_swin', no=0, num_workers=0, output_stride=16, pretrained_backbone='yes', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.726, 
+best mpa is 0.670, 
+and best miou is 0.596.
+

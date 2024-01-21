@@ -1,0 +1,333 @@
+==========Model==========
+ccnet_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.424, 
+best mpa is 0.413, 
+and best miou is 0.271.
+
+==========Model==========
+ccnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.622, 
+best mpa is 0.601, 
+and best miou is 0.508.
+
+==========Model==========
+pspnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.628, 
+best mpa is 0.594, 
+and best miou is 0.516.
+
+==========Model==========
+ccnet_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.612, 
+best mpa is 0.603, 
+and best miou is 0.500.
+
+==========Model==========
+ccnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.630, 
+best mpa is 0.573, 
+and best miou is 0.522.
+
+==========Model==========
+ccnet_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.530, 
+best mpa is 0.507, 
+and best miou is 0.430.
+
+==========Model==========
+pspnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.642, 
+best mpa is 0.575, 
+and best miou is 0.515.
+
+==========Model==========
+deeplabv3_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.451, 
+best mpa is 0.428, 
+and best miou is 0.308.
+
+==========Model==========
+ccnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.628, 
+best mpa is 0.568, 
+and best miou is 0.504.
+
+==========Model==========
+deeplabv3_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.683, 
+best mpa is 0.594, 
+and best miou is 0.535.
+
+==========Model==========
+pspnet_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.674, 
+best mpa is 0.634, 
+and best miou is 0.579.
+
+==========Model==========
+deeplabv3_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.598, 
+best mpa is 0.522, 
+and best miou is 0.451.
+
+==========Model==========
+deeplabv3plus_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.495, 
+best mpa is 0.465, 
+and best miou is 0.354.
+
+==========Model==========
+deeplabv3_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.632, 
+best mpa is 0.603, 
+and best miou is 0.516.
+
+==========Model==========
+deeplabv3plus_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.581, 
+best mpa is 0.535, 
+and best miou is 0.449.
+
+==========Model==========
+ccnet_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.444, 
+best mpa is 0.390, 
+and best miou is 0.285.
+
+==========Model==========
+deeplabv3plus_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.656, 
+best mpa is 0.604, 
+and best miou is 0.532.
+
+==========Model==========
+ccnet_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.667, 
+best mpa is 0.631, 
+and best miou is 0.539.
+
+==========Model==========
+pspnet_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.622, 
+best mpa is 0.592, 
+and best miou is 0.516.
+
+==========Model==========
+ccnet_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='ccnet_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.560, 
+best mpa is 0.528, 
+and best miou is 0.462.
+
+==========Model==========
+pspnet_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.480, 
+best mpa is 0.434, 
+and best miou is 0.291.
+
+==========Model==========
+deeplabv3_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.443, 
+best mpa is 0.426, 
+and best miou is 0.277.
+
+==========Model==========
+pspnet_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.560, 
+best mpa is 0.507, 
+and best miou is 0.431.
+
+==========Model==========
+deeplabv3_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.687, 
+best mpa is 0.599, 
+and best miou is 0.527.
+
+==========Model==========
+deeplabv3plus_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.447, 
+best mpa is 0.444, 
+and best miou is 0.336.
+
+==========Model==========
+deeplabv3_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.546, 
+best mpa is 0.495, 
+and best miou is 0.433.
+
+==========Model==========
+deeplabv3plus_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.563, 
+best mpa is 0.530, 
+and best miou is 0.431.
+
+==========Model==========
+deeplabv3_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.643, 
+best mpa is 0.604, 
+and best miou is 0.535.
+
+==========Model==========
+deeplabv3plus_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.653, 
+best mpa is 0.564, 
+and best miou is 0.512.
+
+==========Model==========
+segformer_b0 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='segformer_b0', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.575, 
+best mpa is 0.544, 
+and best miou is 0.460.
+
+==========Model==========
+pspnet_resnet101 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_resnet101', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.639, 
+best mpa is 0.596, 
+and best miou is 0.512.
+
+==========Model==========
+segformer_b1 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='segformer_b1', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.571, 
+best mpa is 0.531, 
+and best miou is 0.476.
+
+==========Model==========
+pspnet_mobilenet cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_mobilenet', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.533, 
+best mpa is 0.469, 
+and best miou is 0.343.
+
+==========Model==========
+segformer_b4 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='segformer_b4', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.585, 
+best mpa is 0.549, 
+and best miou is 0.480.
+
+==========Model==========
+pspnet_xception cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='pspnet_xception', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.587, 
+best mpa is 0.532, 
+and best miou is 0.445.
+
+==========Model==========
+segformer_b5 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device=None, drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='segformer_b5', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.587, 
+best mpa is 0.559, 
+and best miou is 0.450.
+
+==========Model==========
+deeplabv3plus_resnet50 cmp
+==========Settings==========
+Namespace(additional='cmp', batch_size=8, crop_size=256, data='pos', data_dir='../../geo_seg', device='cuda:1', drop_rate=0.1, emb_dim=48, epoch=300, fine_grained='coarse', gen_dataset='no', head_dim=6, heads=8, inchans=[3, 3], layers=[2, 2, 6, 2], loss_type='cross_entropy', lr=1e-05, model='deeplabv3plus_resnet50', no=3, num_workers=0, output_stride=16, pretrained_backbone='no', read='pre', recurrence=2, seed=None, window_size=8)
+==========Performance==========
+best PA is 0.640, 
+best mpa is 0.592, 
+and best miou is 0.510.
+

@@ -1,0 +1,80 @@
+with matter to background in unet, PA is 0.658, and mIOU is 0.859,
+in the confusion matrix, TP is 433028576.0, FN is 536883904.0, FP is 386969312.0, and TN is 116931688.0.
+with matter to L in unet, PA is 0.753, and mIOU is 0.277,
+in the confusion matrix, TP is 100795680.0, FN is 1008644480.0, FP is 163676416.0, and TN is 200697072.0.
+with matter to Others in unet, PA is 0.974, and mIOU is 0.000,
+in the confusion matrix, TP is 0.0, FN is 1435788160.0, FP is 0.0, and TN is 38025520.0.
+with matter to Qt in unet, PA is 0.765, and mIOU is 0.505,
+in the confusion matrix, TP is 175257472.0, FN is 951733824.0, FP is 165001776.0, and TN is 181820544.0.
+with matter to F in unet, PA is 0.837, and mIOU is 0.074,
+in the confusion matrix, TP is 17896656.0, FN is 1215369344.0, FP is 31187488.0, and TN is 209360240.0.
+with matter to background in segformer_b0, PA is 0.647, and mIOU is 0.900,
+in the confusion matrix, TP is 467692192.0, FN is 486481536.0, FP is 437371552.0, and TN is 82268128.0.
+with matter to L in segformer_b0, PA is 0.751, and mIOU is 0.196,
+in the confusion matrix, TP is 71907056.0, FN is 1034627712.0, FP is 137692832.0, and TN is 229585680.0.
+with matter to Others in segformer_b0, PA is 0.975, and mIOU is 0.150,
+in the confusion matrix, TP is 5528471.0, FN is 1431530624.0, FP is 4257556.0, and TN is 32497042.0.
+with matter to Qt in segformer_b0, PA is 0.760, and mIOU is 0.457,
+in the confusion matrix, TP is 161947840.0, FN is 957662976.0, FP is 159072736.0, and TN is 195130256.0.
+with matter to F in segformer_b0, PA is 0.846, and mIOU is 0.064,
+in the confusion matrix, TP is 14491794.0, FN is 1232705152.0, FP is 13851507.0, and TN is 212765120.0.
+with matter to background in segformer_b1, PA is 0.648, and mIOU is 0.900,
+in the confusion matrix, TP is 466673920.0, FN is 488697536.0, FP is 435155552.0, and TN is 83286464.0.
+with matter to L in segformer_b1, PA is 0.749, and mIOU is 0.210,
+in the confusion matrix, TP is 77962992.0, FN is 1025196800.0, FP is 147124048.0, and TN is 223529744.0.
+with matter to Others in segformer_b1, PA is 0.975, and mIOU is 0.183,
+in the confusion matrix, TP is 6617307.0, FN is 1431005056.0, FP is 4782746.0, and TN is 31408198.0.
+with matter to Qt in segformer_b1, PA is 0.774, and mIOU is 0.431,
+in the confusion matrix, TP is 143411024.0, FN is 997760448.0, FP is 118975232.0, and TN is 213667024.0.
+with matter to F in segformer_b1, PA is 0.844, and mIOU is 0.152,
+in the confusion matrix, TP is 35033468.0, FN is 1208479104.0, FP is 38077264.0, and TN is 192223440.0.
+with matter to background in segformer_b2, PA is 0.654, and mIOU is 0.925,
+in the confusion matrix, TP is 471597664.0, FN is 492448352.0, FP is 431404736.0, and TN is 78362688.0.
+with matter to L in segformer_b2, PA is 0.769, and mIOU is 0.269,
+in the confusion matrix, TP is 91539592.0, FN is 1041543808.0, FP is 130777080.0, and TN is 209953232.0.
+with matter to Others in segformer_b2, PA is 0.977, and mIOU is 0.178,
+in the confusion matrix, TP is 6089662.0, FN is 1433475584.0, FP is 2312511.0, and TN is 31935844.0.
+with matter to Qt in segformer_b2, PA is 0.780, and mIOU is 0.443,
+in the confusion matrix, TP is 143838064.0, FN is 1005179264.0, FP is 111556288.0, and TN is 213240064.0.
+with matter to F in segformer_b2, PA is 0.844, and mIOU is 0.180,
+in the confusion matrix, TP is 41352432.0, FN is 1203211008.0, FP is 43345492.0, and TN is 185904480.0.
+with matter to background in segformer_b3, PA is 0.613, and mIOU is 0.833,
+in the confusion matrix, TP is 475109344.0, FN is 428359936.0, FP is 495493184.0, and TN is 74851080.0.
+with matter to L in segformer_b3, PA is 0.754, and mIOU is 0.091,
+in the confusion matrix, TP is 32915724.0, FN is 1078865408.0, FP is 93455056.0, and TN is 268577024.0.
+with matter to Others in segformer_b3, PA is 0.973, and mIOU is 0.058,
+in the confusion matrix, TP is 2278287.0, FN is 1432361728.0, FP is 3426312.0, and TN is 35747232.0.
+with matter to Qt in segformer_b3, PA is 0.738, and mIOU is 0.416,
+in the confusion matrix, TP is 160925584.0, FN is 926385792.0, FP is 190349744.0, and TN is 196152496.0.
+with matter to F in segformer_b3, PA is 0.838, and mIOU is 0.018,
+in the confusion matrix, TP is 4373160.0, FN is 1231069056.0, FP is 15487233.0, and TN is 222883776.0.
+with matter to background in segformer_b4, PA is 0.638, and mIOU is 0.899,
+in the confusion matrix, TP is 479394528.0, FN is 460878656.0, FP is 462974656.0, and TN is 70565768.0.
+with matter to L in segformer_b4, PA is 0.764, and mIOU is 0.152,
+in the confusion matrix, TP is 52817752.0, FN is 1073544512.0, FP is 98776328.0, and TN is 248674976.0.
+with matter to Others in segformer_b4, PA is 0.976, and mIOU is 0.205,
+in the confusion matrix, TP is 7144148.0, FN is 1431737088.0, FP is 4050994.0, and TN is 30881364.0.
+with matter to Qt in segformer_b4, PA is 0.770, and mIOU is 0.357,
+in the confusion matrix, TP is 120931600.0, FN is 1013998720.0, FP is 102736800.0, and TN is 236146400.0.
+with matter to F in segformer_b4, PA is 0.827, and mIOU is 0.229,
+in the confusion matrix, TP is 58391464.0, FN is 1159961344.0, FP is 86595328.0, and TN is 168865408.0.
+with matter to background in segformer_b5, PA is 0.645, and mIOU is 0.900,
+in the confusion matrix, TP is 470734240.0, FN is 480309888.0, FP is 443543424.0, and TN is 79226152.0.
+with matter to L in segformer_b5, PA is 0.750, and mIOU is 0.200,
+in the confusion matrix, TP is 73761712.0, FN is 1031545856.0, FP is 140775200.0, and TN is 227731024.0.
+with matter to Others in segformer_b5, PA is 0.975, and mIOU is 0.165,
+in the confusion matrix, TP is 6005628.0, FN is 1431401856.0, FP is 4386088.0, and TN is 32019884.0.
+with matter to Qt in segformer_b5, PA is 0.771, and mIOU is 0.432,
+in the confusion matrix, TP is 145831056.0, FN is 990027008.0, FP is 126708432.0, and TN is 211247104.0.
+with matter to F in segformer_b5, PA is 0.844, and mIOU is 0.129,
+in the confusion matrix, TP is 29693512.0, FN is 1214182016.0, FP is 32374532.0, and TN is 197563376.0.
+with matter to background in setr, PA is 0.712, and mIOU is 1.023,
+in the confusion matrix, TP is 434334016.0, FN is 614969472.0, FP is 308883648.0, and TN is 115626400.0.
+with matter to L in setr, PA is 0.779, and mIOU is 0.454,
+in the confusion matrix, TP is 147822992.0, FN is 1000252672.0, FP is 172068112.0, and TN is 153669744.0.
+with matter to Others in setr, PA is 0.974, and mIOU is 0.283,
+in the confusion matrix, TP is 10653030.0, FN is 1425515392.0, FP is 10272508.0, and TN is 27372480.0.
+with matter to Qt in setr, PA is 0.798, and mIOU is 0.539,
+in the confusion matrix, TP is 160257712.0, FN is 1016053888.0, FP is 100681584.0, and TN is 196820384.0.
+with matter to F in setr, PA is 0.849, and mIOU is 0.300,
+in the confusion matrix, TP is 66792040.0, FN is 1184508800.0, FP is 62047920.0, and TN is 160464832.0.
